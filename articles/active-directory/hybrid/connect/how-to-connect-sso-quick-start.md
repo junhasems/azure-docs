@@ -50,6 +50,9 @@ Ensure that the following prerequisites are in place:
 
 - **Use the latest versions of Microsoft 365 clients**: To get a silent sign-on experience with Microsoft 365 clients (for example, with Outlook, Word, or Excel), your users must use versions 16.0.8730.xxxx or later.
 
+> [!NOTE]
+> If you have an outgoing HTTP proxy, make sure that the URL `autologon.microsoftazuread-sso.com` is on your allowlist. You should specify this URL explicitly because the wildcard might not be accepted.
+
 ## Enable the feature
 
 Enable Seamless SSO through [Azure AD Connect](../whatis-hybrid-identity.md).
