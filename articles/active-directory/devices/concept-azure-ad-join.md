@@ -81,6 +81,7 @@ Azure AD Join can be deployed by using any of the following methods:
 - [Windows Autopilot](/windows/deployment/windows-autopilot/windows-10-autopilot)
 - [Bulk deployment](/intune/windows-bulk-enroll)
 - [Self-service experience](azuread-joined-devices-frx.md)
+- Settings
 
 ## Next steps
 
